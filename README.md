@@ -7,7 +7,7 @@ Here i will demonstrate full stack asp.net mvc, web API, WCF apps alltogether
 
 # DAL:
 
-# 1.Set up the database (Code First development)
+1. Set up the database (Code First development)
 
   Enable-Migrations
  
@@ -38,8 +38,11 @@ use Identity2 auth providers, seed db and add sample users with roles
 
 
 Add Domain models extends from BaseEntity
-# 2.Add database configuration using Fluent API
-# 3.Add custom validation configuration using FluentValidation
+
+2. Add database configuration using Fluent API
+
+3. Add custom validation configuration using FluentValidation
+
 https://chsakell.com/2015/01/17/web-api-powerful-custom-model-validation-with-fluentvalidation/
 
 in WebApi - DTO classes add, and Static methods for automapping "toEntity()" n "toDto()"
