@@ -41,11 +41,11 @@ Add Domain models extends from BaseEntity
 
 2. Add database configuration using Fluent API
 
-EF fluent API , use to add db constrains
+    EF fluent API , use to add db constrains
 
 3. Add custom validation configuration using FluentValidation
 
-Install-package FluentValidation , for input validations
+    Install-package FluentValidation , for input validations
 
 https://chsakell.com/2015/01/17/web-api-powerful-custom-model-validation-with-fluentvalidation/
 
