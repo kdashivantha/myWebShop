@@ -52,5 +52,9 @@ https://chsakell.com/2015/01/17/web-api-powerful-custom-model-validation-with-fl
 
 in WebApi - DTO classes add, and Static methods for automapping "toEntity()" n "toDto()", and enable Fluent Validation on them
 
+4. UoW + Repository Pattern
+5. Dependancy Injection ugin Ninject
 
+
+# UI: MVC n Web Api
 
