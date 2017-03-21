@@ -42,6 +42,7 @@ Add Domain models extends from BaseEntity
 2. Add database configuration using Fluent API
 
     EF fluent API , use to add db constrains
+    override "protected override void OnModelCreating(DbModelBuilder modelBuilder){ ... }" in DbContext class
 
 3. Add custom validation configuration using FluentValidation
 
@@ -49,7 +50,7 @@ Add Domain models extends from BaseEntity
 
 https://chsakell.com/2015/01/17/web-api-powerful-custom-model-validation-with-fluentvalidation/
 
-in WebApi - DTO classes add, and Static methods for automapping "toEntity()" n "toDto()"
+in WebApi - DTO classes add, and Static methods for automapping "toEntity()" n "toDto()", and enable Fluent Validation on them
 
 
 
